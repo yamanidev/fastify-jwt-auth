@@ -1,0 +1,1 @@
+CREATE DATABASE fastify_auth_jwt;
