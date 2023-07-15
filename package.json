@@ -1,0 +1,26 @@
+{
+  "name": "fastify-auth-jwt",
+  "version": "1.0.0",
+  "description": "Simple JWT authentication implemented using Fastify as a web server and PostgreSQL as a database.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamanidev/fastify-auth-jwt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yamanidev/fastify-auth-jwt/issues"
+  },
+  "homepage": "https://github.com/yamanidev/fastify-auth-jwt#readme",
+  "keywords": [
+    "node",
+    "fastify",
+    "postgresql",
+    "docker-compose",
+    "auth",
+    "jwt"
+  ],
+  "author": "Mohamed Yamani",
+  "license": "ISC"
+}
