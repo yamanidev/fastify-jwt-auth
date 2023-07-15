@@ -22,5 +22,8 @@
     "jwt"
   ],
   "author": "Mohamed Yamani",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.19.2"
+  }
 }
