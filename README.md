@@ -10,3 +10,4 @@ Simple JWT authentication implemented using Fastify as a web server and PostgreS
 - [ ] Set up the database connection.
 - [ ] Implement `/sign-up` route.
 - [ ] Implement `/sign-in` route.
+- [ ] Project structuring.
