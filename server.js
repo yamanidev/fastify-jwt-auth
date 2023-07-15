@@ -1,7 +1,11 @@
 // Import the framework and instantiate it
 import Fastify from "fastify";
 const fastify = Fastify({
-    logger: true,
+    logger: {
+        transport: {
+            target: "pino-pretty",
+        },
+    },
 });
 
 // Declare a route
