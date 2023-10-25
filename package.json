@@ -30,6 +30,7 @@
     "fastify": "^4.19.2"
   },
   "devDependencies": {
-    "pino-pretty": "^10.0.1"
+    "pino-pretty": "^10.0.1",
+    "prettier": "^3.0.3"
   }
 }
