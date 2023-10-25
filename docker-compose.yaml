@@ -18,7 +18,7 @@ services:
         env_file: .env
         image: dpage/pgadmin4
         ports:
-            - "${PGADMIN_PORT:-5050}:80"
+            - "5050:80"
         networks:
             - postgres
         restart: unless-stopped
