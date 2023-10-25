@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Simple JWT authentication implemented using Fastify as a web server and PostgreSQL as a database.",
   "type": "commonjs",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,7 @@
     "fastify": "^4.19.2"
   },
   "devDependencies": {
+    "nodemon": "^3.0.1",
     "pino-pretty": "^10.0.1",
     "prettier": "^3.0.3"
   }
