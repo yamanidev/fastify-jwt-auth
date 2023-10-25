@@ -26,10 +26,12 @@
   "author": "Mohamed Yamani",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "fastify": "^4.19.2"
+    "@fastify/postgres": "^5.2.2",
+    "fastify": "^4.19.2",
+    "pg": "^8.11.3"
   },
   "devDependencies": {
+    "dotenv": "^16.3.1",
     "nodemon": "^3.0.1",
     "pino-pretty": "^10.0.1",
     "prettier": "^3.0.3"
