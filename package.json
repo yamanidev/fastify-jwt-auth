@@ -2,7 +2,7 @@
   "name": "fastify-auth-jwt",
   "version": "1.0.0",
   "description": "Simple JWT authentication implemented using Fastify as a web server and PostgreSQL as a database.",
-  "type": "module",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
