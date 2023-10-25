@@ -1,3 +1,6 @@
+require("dotenv").config();
+const fastifyPostgres = require("@fastify/postgres");
+
 // Require the framework and instantiate it
 const fastify = require("fastify")({
     logger: {
@@ -5,6 +8,10 @@ const fastify = require("fastify")({
             target: "pino-pretty",
         },
     },
+});
+
+fastify.register(fastifyPostgres, {
+    connectionString: `postgres://${process.env.POSTGRES_USER}:${process.env.POSTGRES_PASSWORD}@localhost:5432/${process.env.DB_NAME}`,
 });
 
 // Declare a route
