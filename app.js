@@ -14,7 +14,9 @@ fastify.register(fastifyPostgres, {
     connectionString: `postgres://${process.env.POSTGRES_USER}:${process.env.POSTGRES_PASSWORD}@localhost:5432/${process.env.DB_NAME}`,
 });
 
-fastify.register(routes);
+fastify.register(routes, {
+    prefix: "/api",
+});
 
 fastify.get("/", function handler(request, reply) {
     reply.send({ hello: "world" });
