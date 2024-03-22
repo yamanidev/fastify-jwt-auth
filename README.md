@@ -2,8 +2,8 @@
 Simple JWT authentication implemented using Fastify as a web server and PostgreSQL as a database.
 
 ## Running locally
-- Copy the environment variables example file `cp .example.env .env` and change the variables accordingly.
-- Install PostgreSQL's image and run the container `docker compose up`.
+- Copy the environment variables example file `cp .example.env .env` and change the configuration accordingly.
+- Pull the PostgreSQL image, build it and run the container : `docker compose up`
 
 ### To do
 - [x] Set up the database using `docker-compose` with an init SQL script.
